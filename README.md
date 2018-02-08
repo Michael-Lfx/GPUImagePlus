@@ -1,4 +1,4 @@
-# AdancedGPUImage
+# GPUImagePlus
 
 Supported platforms:
  - iOS
@@ -12,3 +12,10 @@ Supported rendering backends:
 - OpenGL ES
 - Metal(WIP)
 - Vulkan(Pending)
+
+Features:
+- Multi-thread rendering
+- Hot swap shaders and resource
+- OpenGL ES shader dynamically transcompile to OpenGL shader
+- OpenGL ES shader statically transcompile to Metal shader
+- Enhanced shader debug experience
